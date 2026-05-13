@@ -1,0 +1,22 @@
+# Site identity
+title: Lightning Network AI Agents
+description: AI agents that use tools (MCP) and transact value over the Bitcoin Lightning Network — a CSCI 499 senior capstone project.
+
+# GitHub Pages URL (project site)
+url: https://stevob93.github.io
+baseurl: /agenticln-docs
+
+# Theme — installed via remote_theme so no Gemfile is needed
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+# Footer
+footer_content: "CSCI 499 Senior Capstone · East Texas A&M University · Spring 2026"
